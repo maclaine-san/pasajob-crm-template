@@ -92,8 +92,8 @@ This is an official template for CRM platforms to integrate their jobs and post 
 ### Getting Fields Data
 
     0. GET METHOD to these ENVIRONMENTS - Include in api_key and api_username in params
-    	- dev environment: https://share.dev.pasajob.com/get-fields-data
-    	- prod environment: https://share.pasajob.com/get-fields-data
+	- dev environment: https://share.dev.pasajob.com/get-fields-data
+	- prod environment: https://share.pasajob.com/get-fields-data
     1. The response will have all the data list for the following fields.
 	- Locations (country,province,city)
 	- Industries with job categories
