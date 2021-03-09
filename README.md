@@ -9,6 +9,8 @@ This is an official template for CRM platforms to integrate their jobs and post 
 
     [EMPLOYER](https://employer.pasajob.com)
 
+    Contact Pasajob to get your API credentials
+
 ## How to run locally
 
 ### Using Docker
