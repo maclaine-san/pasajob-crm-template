@@ -21,7 +21,7 @@ This is an official template for CRM platforms to integrate their jobs and post 
     
 ## Executing Job Posting
 
-	Steps in posting a job:
+    Steps in posting a job:
     0. Charge Customer -> get response id and inject as transaction_id in job post payload
     1. Job Post with Job post payload and transaction_id
 
@@ -38,8 +38,8 @@ This is an official template for CRM platforms to integrate their jobs and post 
 	exp_year: Int!
 	cvc: String!
 	amount: Float!
-    api_username: String!
-    api_key: String!
+        api_username: String!
+        api_key: String!
 } 
 ```
     
@@ -95,5 +95,5 @@ This is an official template for CRM platforms to integrate their jobs and post 
     	- dev environment: https://share.dev.pasajob.com/get-fields-data
     	- prod environment: https://share.pasajob.com/get-fields-data
     1. The response will have all the data list for the following fields.
-	    - Locations (country,province,city)
-	    - Industries with job categories
+	- Locations (country,province,city)
+	- Industries with job categories
