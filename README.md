@@ -36,8 +36,8 @@ This is an official template for CRM platforms to integrate their jobs and post 
 	exp_year: Int!
 	cvc: String!
 	amount: Float!
-    api_username: String!
-    api_key: String!
+  api_username: String!
+  api_key: String!
 } 
 ```
     
@@ -62,7 +62,6 @@ This is an official template for CRM platforms to integrate their jobs and post 
   job_category: Int // obtain id from fields data
   industry: Int // obtain id from fields data
   employer_id: Int!
-  company_detail_id: Int!
   qualifications: String
   minimum_qualification: String!
   minimum_experience: String!
@@ -90,11 +89,11 @@ This is an official template for CRM platforms to integrate their jobs and post 
 
 ### Getting Fields Data
 
-    0. GET METHODS to these ENVIRONMENTS
+    0. GET METHODS to these ENVIRONMENTS - Include in api_key and api_username in body
     	- dev environment: https://share.dev.pasajob.com/get-fields-data
     	- prod environment: https://share.pasajob.com/get-fields-data
     1. The response will have all the data list for the following fields.
-	   - Locations (country,province,city)
-	   - Industries
-	   - Job Categories
+	    - Locations (country,province,city)
+	    - Industries
+	    - Job Categories
     
