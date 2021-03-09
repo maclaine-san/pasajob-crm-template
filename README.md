@@ -15,8 +15,8 @@ This is an official template for CRM platforms to integrate their jobs and post 
 
 ### Using Docker
 
-    0. docker-compose up -d 
-    1. copy .env-example and create a .env file.
+    0. copy .env-example and create and setup a .env file.
+    1. docker-compose up -d 
     2. test by going to http://localhost
     
 ## Executing Job Posting
